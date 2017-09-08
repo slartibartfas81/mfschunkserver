@@ -12,7 +12,7 @@ VOLUME /mnt/hdd
 
 ENV MFSM_MASTERHOST mfsmaster
 ENV MFSC_LABEL _
-ENV MFSC_LEAVE_SPACE 0.1GiB
+ENV MFSC_LEAVE_SPACE 4GiB
 
 COPY entrypoint.sh ./entrypoint.sh
 ENTRYPOINT ["./entrypoint.sh"]
